@@ -6,46 +6,14 @@
     <title>Spirited Away - Animated Film</title>
     <!-- 引入Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .centered-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        .img-fluid {
-            max-width: 500px;
-        }
-        .btn-custom {
-            padding: 10px 20px; /* 增大按钮大小 */
-            font-size: 16px; /* 增大按钮字体大小 */
-            margin: 5px;
-        }
-        .btn-blue {
-            background-color: #007BFF; /* 蓝色 */
-            border-color: #007BFF;
-        }
-        .btn-green {
-            background-color: #28A745; /* 绿色 */
-            border-color: #28A745;
-        }
-        .btn-yellow {
-            background-color: #FFC107; /* 黄色 */
-            border-color: #FFC107;
-        }
-        .title-blue {
-            color: #007BFF; /* 蓝色 */
-        }
-    </style>
 </head>
 <body>
     <div class="container mt-5">
         <div class="row justify-content-center">
-            <div class="col-md-8 centered-content">
-                <h1 class="display-4 title-blue">Spirited Away</h1>
+            <div class="col-md-8 text-center">
+                <h1 class="display-4 text-primary">Spirited Away</h1>
                 <!-- 添加图片 -->
-                <img src="spirited_away.jpg" alt="Spirited Away Poster" class="img-fluid rounded mx-auto d-block mt-3">
+                <img src="e6/spirited_away.jpg" alt="Spirited Away Poster" class="img-fluid rounded mx-auto d-block mt-3">
                 <!-- Description Content -->
                 <div class="row mt-3" id="description">
                     <div class="col-md-12">
@@ -75,9 +43,9 @@
                 <!-- 添加按钮 -->
                 <div class="row mt-3">
                     <div class="col-md-12">
-                        <button class="btn btn-custom btn-blue mx-2" onclick="showContent('description')">Description</button>
-                        <button class="btn btn-custom btn-green mx-2" onclick="showContent('cast')">Cast</button>
-                        <button class="btn btn-custom btn-yellow mx-2" onclick="showContent('trivia')">Trivia</button>
+                        <button class="btn btn-primary mx-2" onclick="showContent('description')">Description</button>
+                        <button class="btn btn-success mx-2" onclick="showContent('cast')">Cast</button>
+                        <button class="btn btn-warning mx-2" onclick="showContent('trivia')">Trivia</button>
                     </div>
                 </div>
             </div>
